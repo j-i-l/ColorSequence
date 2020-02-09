@@ -1,16 +1,12 @@
 from matplotlib import pyplot as plt
 from colorseq import DistinctColors
 
-seed_h = 1
-seed_s = 1
-seed_v = 1
-seed_comb = 1
-dc_h = DistinctColors(20, (0.0, 1.0), 1.0, 1.0, seed=seed_h)
-dc_s = DistinctColors(20, 0.4, (0.1, 1.0), 1.0, seed=seed_s)
-dc_v = DistinctColors(20, 0.4, 1.0, (0.1, 1.0), seed=seed_v)
+dc_h = DistinctColors(20, (0.0, 1.0), 1.0, 1.0)
+dc_s = DistinctColors(20, 0.4, (0.1, 1.0), 1.0)
+dc_v = DistinctColors(20, 0.4, 1.0, (0.1, 1.0))
 dc_comb = DistinctColors(
         20, (0.0, 1.0), (0.1, 1.0), (0.7, 1.0),
-        h_shuffle=True, s_shuffle=True, v_shuffle=True, seed=seed_comb
+        h_shuffle=True, s_shuffle=True, v_shuffle=True
         )
 colors_h = dc_h.get_colors()
 colors_s = dc_s.get_colors()

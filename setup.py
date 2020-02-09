@@ -29,9 +29,7 @@ setup(
         author_email='jonas.i.liechti@gmail.com',
         license='GPL-3',
         packages=['colorseq'],
-        install_requires=[
-          'colorsys',
-        ],
+        install_requires=[],
         test_suite='nose.collector',
         tests_require=['nose', 'nose-cover3'],
         # ToDo:

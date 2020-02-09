@@ -13,9 +13,7 @@ Creating some colors
     
     
 
-  .. literalinclude:: ../examples/life_cycle_events.py
+  .. literalinclude:: ../examples/simple_scatter.py
      :language: python
-     :lines: 1-79
-     :emphasize-lines: 5, 27-31, 37-42, 66
 
   The full script can be downloaded :download:`here <../examples/simple_scatter.py>`.

@@ -14,24 +14,20 @@ colors_v = dc_v.get_colors()
 colors_comb = dc_comb.get_colors()
 fig, ax = plt.subplots()
 ax.scatter(
-        [*range(20)],
-        [2 for _ in range(20)],
-        s=200.0, c=colors_comb, marker='v', label='combined'
+        [*range(20)], [2 for _ in range(20)], s=200.0,
+        c=colors_comb, marker='v', label='combined'
         )
 ax.scatter(
-        [*range(20)],
-        [1.5 for _ in range(20)],
-        s=200.0, c=colors_v, marker='s', label='value'
+        [*range(20)], [1.5 for _ in range(20)], s=200.0,
+        c=colors_v, marker='s', label='value'
         )
 ax.scatter(
-        [*range(20)],
-        [0.5 for _ in range(20)],
+        [*range(20)], [0.5 for _ in range(20)],
         s=200.0, c=colors_s, marker='<', label='saturation'
         )
 ax.scatter(
-        [*range(20)],
-        [0 for _ in range(20)],
-        s=200.0, c=colors_h, label='hue'
+        [*range(20)], [0 for _ in range(20)], s=200.0,
+        c=colors_h, label='hue'
         )
 ax.legend(loc='best', numpoints=4)
 plt.show()

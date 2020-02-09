@@ -8,7 +8,7 @@ ColorSequence
   
   source: `wikipedia`_ 
 
-.. _wikipedia: https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder.png
+.. _wikipedia: https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder_small.png
 
 .. inclusion-p1
 

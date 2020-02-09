@@ -16,7 +16,6 @@ Welcome to ColorSequence
    api/colorseq
 
 
-
 Indices and tables
 ==================
 

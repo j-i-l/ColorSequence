@@ -2,9 +2,8 @@
 Quickstart
 ===========
 
-.. include:: ../README.rst
-  :start-after: inclusion-p1
-  :end-before: exclusion-p1
+Simple example
+==============
 
 
 .. figure:: _static/scatter_plot.png

@@ -1,17 +1,37 @@
 ColorSequence
 =============
 
-Package to provide distinct colors.
 
-You can either create a list of colors or generators that will allow you to
-draw new distinct colors.
+.. figure:: docs/_static/HSV_color_cylinder.png
+  :scale: 20%
+  :align: right
+  
+  source: `wikipedia`_ 
+
+.. _wikipedia: https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder.png
 
 .. inclusion-p1
+
+A package to provide distinct colors.
+
+The idea behind this package is to generate colours from the `HSV-colorspace`_ by generation evenly distributed values in each dimension (hue, saturation, value).
+
+
+The package uses the `golden angle`_ to create evenly distributed values in the range of values you specify.
+
+.. _golden angle: https://en.wikipedia.org/wiki/Golden_angle
+.. _HSV-colorspace: https://en.wikipedia.org/wiki/HSL_and_HSV#HSV_to_RGB
+
+
+You can either create a list of colors or a generator that will allow you to
+continuously draw new distinct colors.
+
+
+.. exclusion-p1
 
 Simple example
 ==============
 
-.. exclusion-p1
 
 .. figure:: docs/_static/scatter_plot.png
 

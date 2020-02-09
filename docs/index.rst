@@ -6,6 +6,18 @@
 Welcome to ColorSequence
 ========================
 
+.. figure:: _static/HSV_color_cylinder.png
+  :scale: 20%
+  :align: right
+  
+  source: `wikipedia`_ 
+
+.. _wikipedia: https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder.png
+
+.. include:: ../README.rst
+  :start-after: inclusion-p1
+  :end-before: exclusion-p1
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

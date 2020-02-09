@@ -13,9 +13,9 @@ Simple example
 
 .. exclusion-p1
 
-  .. figure:: docs/_static/scatter_plot.png
+.. figure:: docs/_static/scatter_plot.png
 
-  .. code-block:: python
+.. code-block:: python
 
         from matplotlib import pyplot as plt
         from colorseq import DistinctColors

@@ -71,4 +71,4 @@ You can get the latest version with
 Documentation
 ==============
 
-http://pyalluv.rtfd.io/
+http://colorsequence.rtfd.io/

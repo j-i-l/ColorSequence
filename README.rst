@@ -2,14 +2,6 @@ ColorSequence
 =============
 
 
-.. figure:: docs/_static/HSV_color_cylinder.png
-  :scale: 20%
-  :align: right
-  
-  source: `wikipedia`_ 
-
-.. _wikipedia: https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder_small.png
-
 .. inclusion-p1
 
 A package to provide distinct colors.
@@ -28,6 +20,15 @@ continuously draw new distinct colors.
 
 
 .. exclusion-p1
+
+.. figure:: docs/_static/HSV_color_cylinder_small.png
+  :scale: 20%
+  :align: right
+  
+  HSV-colorspace: A specific color is determined by the triple hue, saturation and value, each takes a value within [0, 1]. source: `wikipedia`_ 
+
+.. _wikipedia: https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder.png
+
 
 Simple example
 ==============

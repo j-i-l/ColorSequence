@@ -101,9 +101,9 @@ class DistinctColors(object):
                     self.v, self.v_init_val, self._v_shuffler
             )
         else:
-            self.h_vals = generate_vals(self.next_gen, self.v, self.v_init_val)
-            self.s_vals = generate_vals(self.next_gen, self.h, self.h_init_val)
-            self.v_vals = generate_vals(self.next_gen, self.s, self.s_init_val)
+            self.h_vals = generate_vals(self.next_gen, self.h, self.h_init_val)
+            self.s_vals = generate_vals(self.next_gen, self.s, self.s_init_val)
+            self.v_vals = generate_vals(self.next_gen, self.v, self.v_init_val)
 
         self._new_vals = True
 
